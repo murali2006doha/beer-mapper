@@ -1,3 +1,3 @@
 - search for product in search bar
-- click on desired product -> returns a list of nearest stores with availability
-- once you see the store list, if you want to search for another, click on the header to search again. 
+- click on desired product -> returns a list of nearest stores with availability and shows markers on map
+- once you see the store list, if you want to search for another, click on the header to search again
