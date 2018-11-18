@@ -177,7 +177,7 @@ class Search extends Component {
                   scaledSize: this.props.google.maps.Size(32, 32)
                 }}/>
               <InfoWindow marker={this.state.activeMarker} visible={this.state.showingInfoWindow}>
-                <div>
+                <div style={{color: 'black'}}>
                   <p>{this.state.selectedPlace.name}</p>
                   <p>{this.state.selectedPlace.loc}</p>
                   <p>{"Quantity: " + this.state.selectedPlace.quantity}</p>
