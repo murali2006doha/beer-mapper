@@ -1,0 +1,75 @@
+
+.App {
+  text-align: center;
+  background-color: white ;
+  border-top: 10px solid black;
+}
+
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  color: white;
+  border: 1px solid lightgrey;
+  /* box-shadow: rgb(170, 170, 170) 0px 8px 32px; */
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.search-bar {
+  border-radius: 0px;
+  margin: 1rem;
+}
+
+.title {
+  font-family: 'Playfair Display', serif!important;
+  font-style: normal!important;
+  font-weight: lighter!important;
+  color: black;
+  font-size: 4rem!important;
+}
+
+.h5-text {
+  margin-top: 50px!important;
+  color: black;
+}
+
+.card-image {
+  width: 40px;
+  height: 40px;
+}
+
+.card-content {
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+}
+
+.card-group {
+  text-align: left;
+  width: 90%;
+}
+.header-container {
+  display: flex!important;
+  align-items:center;
+  cursor: pointer;
+}
+
+.results-div {
+  width: 100%;
+}
+
+.results-container {
+  height: 500px;
+  position: relative;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
