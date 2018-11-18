@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = 'MDpiOTFlNTFmYy1lOWI1LTExZTgtOTQ5NS0zN2QzMDJjNWFmZjE6eFlZQTIzNVMyYnlGQVJSUXVqSGpiTHFNTTNjM1JvVXZ1Q2g3'
+const API_KEY = 'MDo0M2ExZmRjZS1lYWU3LTExZTgtYmU3NC00YmVhN2IwMDk4YTY6Y2xuVzVIenFtZ20yYWVIRVJNTklnVjZUaUkxN2lTcDBmdzM5'
 
 export function getProducts(keyword) {
   return dispatch => {
